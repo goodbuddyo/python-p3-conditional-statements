@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-
-#def admin_login(username, password):
-#    # your code here
-#    pass
-
+#control_flow.py
 def hows_the_weather(temperature):
   if temperature < 40 :
     return("It's brisk out there!")
@@ -14,7 +10,6 @@ def hows_the_weather(temperature):
   else:
     return("It's perfect out there!")
 
-
 def fizzbuzz(num):
   if num % 15 == 0:
     return "FizzBuzz"
@@ -24,10 +19,6 @@ def fizzbuzz(num):
     return "Buzz"
   else:
     return(num)
-
-
-
-
 
 def calculator(operation, num1, num2):
   if(operation == "*"):
@@ -41,7 +32,6 @@ def calculator(operation, num1, num2):
   else:
     print("Invalid operation!")
     return(None)
-
 
 def admin_login(username, password):
   if username == "admin" or username == "ADMIN":

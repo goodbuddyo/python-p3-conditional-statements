@@ -334,7 +334,9 @@ JavaScript version of the solution for each of these deliverables in the
 solving them in Python without looking at the JavaScript solution).
 
 Write a function `admin_login()` that takes two arguments, a username and a
-password. If the username is "admin" or "ADMIN" and the password is "12345",
+password. 
+
+If the username is "admin" or "ADMIN" and the password is "12345",
 return "Access granted". Otherwise, return "Access denied".
 
 ```py
@@ -351,9 +353,11 @@ admin_login("ADMIN", "12345")
 > parentheses `()` so that they are evaluated together.**
 
 Write a function `hows_the_weather()` that takes in one argument, a temperature.
-If the temperature is below 40, return "It's brisk out there!". If the
-temperature is between 40 and 65, return "It's a little chilly out there!". If
-the temperature is above 85, return "It's too dang hot out there!". Otherwise,
+
+If the temperature is below 40, return "It's brisk out there!". 
+If the temperature is between 40 and 65, return "It's a little chilly out there!". 
+If the temperature is above 85, return "It's too dang hot out there!". 
+Otherwise,
 return "It's perfect out there!"
 
 ```py
@@ -365,10 +369,11 @@ hows_the_weather(75)
 # "Perfect!"
 ```
 
-Write a function `fizzbuzz()` takes in a number. For multiples of three, return
-"Fizz" instead of the number. For the multiples of five, return "Buzz". For
-numbers which are multiples of both three and five, return "FizzBuzz". For
-all other numbers, just return the number itself.
+Write a function `fizzbuzz()` takes in a number. 
+For multiples of three, return "Fizz" instead of the number. 
+For the multiples of five, return "Buzz". 
+For numbers which are multiples of both three and five, return "FizzBuzz". 
+For all other numbers, just return the number itself.
 
 ```py
 fizzbuzz(1)
@@ -385,10 +390,12 @@ fizzbuzz(15)
 # FizzBuzz
 ```
 
-Write a function `calculator()` that takes three arguments: an operation and two
-numbers. If the operation is one of the following: `+`, `-`, `*`, or `/`, return
-the value of calling the operation on the two numbers. Otherwise, output a
-message saying "Invalid operation!" and return `None`.
+Write a function `calculator()` that takes three arguments: 
+  an operation and two numbers. 
+If the operation is one of the following:
+   `+`, `-`, `*`, or `/`, 
+return the value of calling the operation on the two numbers. 
+Otherwise, output a message saying "Invalid operation!" and return `None`.
 
 ```py
 calculator("+", 1, 1)
